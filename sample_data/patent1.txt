@@ -1,0 +1,7 @@
+Patent Number: US-1234567-B2
+Title: Widget for Efficient Data Processing
+Assignee: Acme Corp
+Filing Date: May 12, 2021
+
+Abstract: A widget that processes data efficiently across diverse computing
+environments. The device reduces cost and improves throughput.
