@@ -1,8 +1,7 @@
 # Patent PDF Extractor (Sample / Redacted)
 
 This repository is a **public, redaction‑safe sample** of a company program that extracts
-structured metadata from **patent PDFs**. It demonstrates **architecture, interfaces, unit tests,
-a small CLI**, and where your **private PDF code** would plug in — without exposing any proprietary logic.
+structured metadata from **patent PDFs**. It demonstrates sample code without exposing any proprietary logic.
 
 > ✅ You can share this repo publicly. Proprietary parsing rules, vendor/OCR config, and corp data are **not** included.
 
