@@ -17,3 +17,7 @@ python -m patentx.cli --input sample_data --out sample_data/out.csv --sink csv
 # Run tests
 pytest -q
 ```
+- CLI tool to batch-extract metadata from patent PDFs / TXT exports
+- Pure-Python package (`pip install -e .`) with a simple `patentx.cli` entrypoint
+- Sample patents in `sample_data/` plus unit tests in `tests/`
+- Designed as a redaction-safe public sample of production IP tooling
