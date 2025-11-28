@@ -1,11 +1,20 @@
-# Architecture
+## Architecture
 
-loaders: turn PDF / TXT into raw text or intermediate objects
-extractors: parse metadata via regex/rules/ML
-models: dataclasses/pydantic models for patent metadata
-sinks: CSV / DB / JSON, etc.
-cli: argument parsing and wiring things together
+- **Loaders**  
+  Turn PDF / TXT into raw text or intermediate objects.
 
+- **Extractors**  
+  Parse metadata via regex/rules/ML.
+
+- **Models**  
+  Dataclasses / Pydantic models for patent metadata.
+
+- **Sinks**  
+  Write results to CSV / JSONL / DB, etc.
+
+- **CLI**  
+  Argument parsing and wiring the pipeline together.
+  
 # Patent PDF Extractor (Sample / Redacted)
 
 This repository is a **public, redaction‑safe sample** of a company program that extracts
