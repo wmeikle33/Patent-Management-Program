@@ -38,3 +38,5 @@ pytest -q
 - Pure-Python package (`pip install -e .`) with a simple `patentx.cli` entrypoint
 - Sample patents in `sample_data/` plus unit tests in `tests/`
 - Designed as a redaction-safe public sample of production IP tooling
+
+## Extension Guide
