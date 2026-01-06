@@ -40,3 +40,5 @@ pytest -q
 - Designed as a redaction-safe public sample of production IP tooling
 
 ## Extension Guide
+
+## Limitations
