@@ -41,4 +41,8 @@ pytest -q
 
 ## Extension Guide
 
+-Add a New Loader
+-Add a New Sink
+-Add a New Extractor
+
 ## Limitations
