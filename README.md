@@ -41,6 +41,9 @@ pytest -q
 
 ## What Fields are Extracted
 
+-Date
+-Financial Information
+
 ## Extension Guide
 
 -Add a New Loader
