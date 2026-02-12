@@ -44,7 +44,15 @@ pytest -q
 ## Extension Guide
 
 -Add a New Loader
+
 -Add a New Sink
+
+Sinks should not mutate records.
+Sinks should accept any iterable (list, generator).
+Use UTF-8 everywhere.
+For file sinks, create parent dirs if needed (optional but nice).
+If writing fails, raise a clear error (e.g., OutputWriteError(out_path, reason)).
+
 -Add a New Extractor
 
 ## Limitations
