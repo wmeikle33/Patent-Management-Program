@@ -68,3 +68,12 @@ Prefer explicit failures for malformed required fields (raise ParseError) vs sil
 
 
 ## Limitations
+
+This project is intended as a lightweight demonstration of a modular patent text extraction pipeline. It is not a production-grade patent analytics system.
+Input format sensitivity: Extraction works best on born-digital PDFs. Scanned/image-only PDFs are not supported without external OCR preprocessing.
+Layout variability: Patent formats vary across jurisdictions and publication years. Extraction rules were developed against a limited sample and may fail on unusual layouts.
+Heuristic-based extraction: Most fields are extracted using rule-based methods (regex and section heuristics). Accuracy depends on formatting consistency.
+Incomplete metadata handling: Multiple assignees, nested applicant structures, and edge-case date formats may not be handled correctly.
+No legal validation: Extracted data should not be used for legal or regulatory decisions.
+Limited evaluation: No large-scale precision/recall benchmarking has been performed.
+Not optimized for scale: The pipeline has not been tested on large (>10k document) corpora or distributed environments.
