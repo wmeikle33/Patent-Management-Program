@@ -55,4 +55,13 @@ If writing fails, raise a clear error (e.g., OutputWriteError(out_path, reason))
 
 -Add a New Extractor
 
+Return None for missing fields (don’t use "N/A").
+Keep parsing pure: no file I/O inside extractors.
+Normalize consistently:
+strip whitespace
+collapse internal whitespace
+keep original capitalization unless you have a reason to normalize
+Prefer explicit failures for malformed required fields (raise ParseError) vs silently wrong data.
+
+
 ## Limitations
